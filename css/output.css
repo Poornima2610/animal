@@ -1930,6 +1930,10 @@ video {
   outline-style: solid;
 }
 
+.duration-300 {
+  transition-duration: 300ms;
+}
+
 @font-face {
   font-family: "Helvetica Neue", sans-serif;
 
@@ -1950,10 +1954,48 @@ video {
   font-family: "Helvetica Neue med", sans-serif;
 }
 
+.hover\:h-\[\]:hover {
+  height: ;
+}
+
+.hover\:h-\[1\]:hover {
+  height: 1;
+}
+
+.hover\:h-\[1vw\]:hover {
+  height: 1vw;
+}
+
+.hover\:w-\[\]:hover {
+  width: ;
+}
+
+.hover\:w-\[1vw\]:hover {
+  width: 1vw;
+}
+
+.hover\:scale-110:hover {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .focus\:border:focus {
   border-width: 1px;
 }
 
 .focus\:border-0:focus {
   border-width: 0px;
+}
+
+.group:hover .group-hover\:scale-110 {
+  --tw-scale-x: 1.1;
+  --tw-scale-y: 1.1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:scale-150 {
+  --tw-scale-x: 1.5;
+  --tw-scale-y: 1.5;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
