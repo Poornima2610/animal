@@ -744,6 +744,10 @@ video {
   width: 30vw;
 }
 
+.w-\[35\%\] {
+  width: 35%;
+}
+
 .-translate-y-0 {
   --tw-translate-y: -0px;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -869,8 +873,48 @@ video {
   gap: 1vw;
 }
 
+.gap-\[8vw\] {
+  gap: 8vw;
+}
+
+.gap-\[vw\] {
+  gap: vw;
+}
+
+.gap-\[3\] {
+  gap: 3;
+}
+
+.gap-\[7vw\] {
+  gap: 7vw;
+}
+
+.gap-\[1\.vw\] {
+  gap: 1.vw;
+}
+
+.gap-\[1\.8vw\] {
+  gap: 1.8vw;
+}
+
 .rounded-full {
   border-radius: 9999px;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
+}
+
+.rounded-\[\] {
+  border-radius: ;
+}
+
+.rounded-\[10vw\] {
+  border-radius: 10vw;
+}
+
+.rounded-\[2vw\] {
+  border-radius: 2vw;
 }
 
 .border {
@@ -889,6 +933,15 @@ video {
 .border-white {
   --tw-border-opacity: 1;
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-\[\] {
+  border-color: ;
+}
+
+.border-\[\#868686\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(134 134 134 / var(--tw-border-opacity));
 }
 
 .bg-\[\] {
@@ -923,6 +976,10 @@ video {
 .bg-\[\#F8F0ED\] {
   --tw-bg-opacity: 1;
   background-color: rgb(248 240 237 / var(--tw-bg-opacity));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .p-\[4vw\] {
@@ -1052,6 +1109,26 @@ video {
 .px-\[9\] {
   padding-left: 9;
   padding-right: 9;
+}
+
+.py-\[4vw\] {
+  padding-top: 4vw;
+  padding-bottom: 4vw;
+}
+
+.py-\[vw\] {
+  padding-top: vw;
+  padding-bottom: vw;
+}
+
+.py-\[3vw\] {
+  padding-top: 3vw;
+  padding-bottom: 3vw;
+}
+
+.py-\[1\.\] {
+  padding-top: 1.;
+  padding-bottom: 1.;
 }
 
 .pt-\[\] {
@@ -1288,6 +1365,10 @@ video {
 
 .pt-\[\.5vw\] {
   padding-top: .5vw;
+}
+
+.pt-\[5\] {
+  padding-top: 5;
 }
 
 .text-center {
@@ -1717,6 +1798,15 @@ video {
   opacity: 0.9;
 }
 
+.outline-none {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+.outline {
+  outline-style: solid;
+}
+
 @font-face {
   font-family: "Helvetica Neue", sans-serif;
 
@@ -1735,4 +1825,12 @@ video {
 
 .font-helvetica-med {
   font-family: "Helvetica Neue med", sans-serif;
+}
+
+.focus\:border:focus {
+  border-width: 1px;
+}
+
+.focus\:border-0:focus {
+  border-width: 0px;
 }
