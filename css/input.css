@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@font-face {
+    font-family: "Helvetica Neue", sans-serif;
+    src: url("../assets/font/Helvetica-Neue-Font/HelveticaNeueLt.ttf");
+}
+
+@font-face {
+    font-family: "Helvetica Neue med", sans-serif;
+    src: url("../public/assets/font/Helvetica-Neue-Font/HelveticaNeueMedium.ttf");
+}
+
+.font-helvetica {
+    font-family: "Helvetica Neue", sans-serif;
+}
+
+.font-helvetica-med {
+    font-family: "Helvetica Neue med", sans-serif;
+}
